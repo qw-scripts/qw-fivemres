@@ -17,3 +17,11 @@ fivemres.exe -p <project_name>
 ```
 
 This will create all the folders and files for you and insert some basic information like creating a local variable in client and server to use the QBCore core object, it will create a barebones `fxmanifest.lua` for you and insert some basic info into that as well.
+
+## Developer Information
+
+This CLI tool is written in Rust. You can install Rust using [rustup](https://rustup.rs/)
+
+To create a release, push a new tag of the form vn.n.n (e.g. v0.1.2) to this repository and a release will be created and binaries compiled for Windows, macOS, and Linux.
+
+Pull Requests are 100% welcome!
